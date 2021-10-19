@@ -248,6 +248,11 @@ div{
             }
         }
     }
+    @media(max-width:720px){
+        img{
+           width:28px; 
+        }
+    }
 }
 
 `

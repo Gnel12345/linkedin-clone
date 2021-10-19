@@ -133,6 +133,10 @@ flex-grow:1;
 
 
     }
+    @media(max-width:620px){
+        margin-top:0px;
+        padding:0px;
+    }
 }
 
 `
@@ -149,6 +153,10 @@ pointer-events:none;
 display:flex;
 justify-content:center;
 align-items:center;
+
+@media(max-width:720px){
+    top:10px;
+}
 
 
 `
@@ -242,6 +250,12 @@ font-size:16px;
 transition-duration:167ms;
 text-align:center;
 display:none;
+
+@media(max-width:760px){
+        width:100px;
+        height:60px;
+
+    }
 
 
 `
