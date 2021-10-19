@@ -22,7 +22,7 @@ const Login = (props) => {
                 <Join>Join now</Join>
                 <SignIn>Sign In</SignIn>
             </div>
-        </Nav>
+            </Nav>
         <Section>
             
             <Hero>
@@ -30,6 +30,8 @@ const Login = (props) => {
             </h1>
             <img src="/images/login-hero.svg"></img>
             </Hero>
+            
+            
             <Form>
                 <Google onClick={()=>props.signIn()}>
                     <img src="images/google.svg"></img>
@@ -37,6 +39,7 @@ const Login = (props) => {
                 </Google>
             </Form>
             </Section>
+            
     </Container>
     )
 }
@@ -56,14 +59,22 @@ position:relative;
 justify-content:space-between;
 flex-wrap:nowrap;
 
+
 & > a {
 
     width:135px;
     height:34px;
-
     @media(max-width:780px){
-        padding: 0 5px;
+        height:280px;
+        padding:0;
+    
+       
+        
+    
+    
+
     }
+   
 
 }
 
@@ -82,6 +93,8 @@ margin-right:12px;
     color:(0,0,0,0.9);
     text-decoration:none;
 }
+
+
 
 `
 
@@ -103,6 +116,13 @@ background-color: rgba( 0,0,0,0);
     text-decoration:none;
 
 }
+@media(max-width: 768px){
+        text-align: center;
+        font-size: 20px;
+        width:100%;
+        line-height:2;
+
+    }
 
 `
 const Section=styled.section`
