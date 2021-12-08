@@ -16,7 +16,7 @@ const Login = (props) => {
         }
         <Nav>
             <a href ="/">
-                <img src="/images/login-logo.png" alt =""/>
+                <img src="/images/MinkedIn.png" alt =""/>
             </a>
             <div>
                 <Join>Join now</Join>
@@ -73,6 +73,12 @@ flex-wrap:nowrap;
     
     
 
+    }
+
+    img{
+        width:300px;
+        height:230px;
+        margin-bottom:50px;
     }
    
 

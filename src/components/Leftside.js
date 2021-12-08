@@ -15,7 +15,7 @@ const Leftside = (props) =>{
                     <Link>Welcome, {props.user ? props.user.displayName :"there"}</Link>
                 </a>
                 <a>
-                    <AddPhotoText>Add a Photo</AddPhotoText>
+                    <AddPhotoText >Add a Photo</AddPhotoText>
                 </a>
             
             
